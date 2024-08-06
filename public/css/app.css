@@ -1,0 +1,53 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+/* Chat container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+/* Header styles */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+/* Main chat area */
+.chat-main {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+/* Chat bubble */
+.chat-bubble {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+/* Message author */
+.message-author {
+    font-weight: bold;
+  }
+/* Footer styles */
+.footer {
+    background-color: white;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+  }
+/* Input field */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
